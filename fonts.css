@@ -1,0 +1,19 @@
+:root {
+    --font-display:
+        "SANSSERIF FONT EXAMPLE", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+    --font-body:
+        "BODY FONT", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+    --font-mono:
+        "MONO", "Monaco", "Consolas", "Courier New", Courier, monospace;
+}
+/* onest-regular - cyrillic_latin */
+/* SETUP YOUR FONTS HERE */
+@font-face {
+    font-display: swap;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/") format("woff2");
+}
